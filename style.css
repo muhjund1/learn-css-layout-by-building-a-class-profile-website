@@ -1,0 +1,158 @@
+/* Reset dan Base Styles */
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    height: 50px;
+    background: linear-gradient(120deg, rgb(100, 100, 246), #1261ea 100%);
+
+    h1 {
+        color: rgb(246, 233, 233);
+        font-size: 2.5em;
+        margin-bottom: 5px;
+    }
+
+    .description {
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        font-size: 0.9em;
+    }
+}
+
+.judul-daftar-santri {
+    text-align: center;
+}
+
+/* About Section */
+
+.about-me {
+     background: linear-gradient(120deg, rgb(100, 100, 246), #1261ea 100%);
+     display:flex;
+     flex-wrap: wrap;
+     width: 100%;
+}
+ 
+.about-content1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    margin: 5px;
+    padding: 20px;
+    
+}
+
+.about-content img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  
+}
+
+.about-content2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    color: rgb(246, 233, 233);
+    width: 400;
+    margin: 5px;
+    padding: 25px;
+    
+}
+
+
+.about-content3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    margin: 5px;
+    padding: 20px;
+}
+
+.about-content4 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 400;
+    margin: 5px;
+    padding: 25px;
+}
+
+
+.about-content5 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    margin: 5px;
+    padding: 20px;
+}
+
+.about-content6 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 400;
+    margin: 5px;
+    padding: 25px;
+}
+
+.about-content7 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    margin: 5px;
+    padding: 20px;
+}
+
+.about-content8 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 400;
+    margin: 5px;
+    padding: 25px;
+}
+
+.slogan-almahir {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(100, 100, 246);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+
+
+@media (min-width: 992px) {
+    .about-me {
+        width: 70%;
+        margin: auto;
+    
+    }
+
+}
+
+@media (min-width: 992px) {
+    .header {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+
