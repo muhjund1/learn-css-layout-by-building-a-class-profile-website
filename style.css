@@ -1,5 +1,9 @@
 /* Reset dan Base Styles */
 
+* {
+    padding: 0%;
+    margin: 0%;
+}
 /* Header Styles */
 header {
     text-align: center;
@@ -52,10 +56,12 @@ header {
     /* background: linear-gradient(120deg, rgb(100, 100, 246), #1261ea 100%); */
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .about-content {
     background: linear-gradient(120deg, rgb(100, 100, 246), #1261ea 100%);
+    width: 50%;
 }
 
 .about-content1 {
