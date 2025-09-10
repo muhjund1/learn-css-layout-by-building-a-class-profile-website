@@ -57,11 +57,13 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+ 
+    
 }
 
 .about-content {
     background: linear-gradient(120deg, rgb(100, 100, 246), #1261ea 100%);
-    width: 50%;
+    width: 35%;
 }
 
 .about-content1 {
@@ -69,7 +71,6 @@ header {
     gap: 10px;
     align-items: center;
     color: rgb(255, 255, 255);
-    width: 400px;
     margin: 5px;
     padding: 20px;
 
@@ -88,7 +89,6 @@ header {
     gap: 10px;
     align-items: center;
     color: rgb(246, 233, 233);
-    width: 400px;
     margin: 5px;
     padding: 20px;
 
@@ -100,7 +100,6 @@ header {
     gap: 10px;
     align-items: center;
     color: rgb(255, 255, 255);
-    width: 400px;
     margin: 5px;
     padding: 20px;
 }
@@ -110,7 +109,6 @@ header {
     gap: 10px;
     align-items: center;
     color: rgb(255, 255, 255);
-    width: 400px;
     margin: 5px;
     padding: 20px;
 }
@@ -121,7 +119,6 @@ header {
     gap: 10px;
     align-items: center;
     color: rgb(255, 255, 255);
-    width: 400px;
     margin: 5px;
     padding: 20px;
 }
@@ -131,7 +128,6 @@ header {
     gap: 10px;
     align-items: center;
     color: rgb(255, 255, 255);
-    width: 400px;
     margin: 5px;
     padding: 20px;
 }
@@ -141,7 +137,6 @@ header {
     gap: 10px;
     align-items: center;
     color: rgb(255, 255, 255);
-    width: 400px;
     margin: 5px;
     padding: 20px;
 }
@@ -151,7 +146,6 @@ header {
     gap: 10px;
     align-items: center;
     color: rgb(255, 255, 255);
-    width: 400px;
     margin: 5px;
     padding: 20px;
 }
@@ -164,13 +158,21 @@ header {
 
 }
 
+.copyright {
+    text-align: center;
+}
 
 
-@media (min-width: 992px) {
+
+@media (max-width: 768px) {
     .about-me {
-        width: 70%;
+        width: 90%;
         margin: auto;
 
+    }
+
+    .about-content {
+        width: 100%;
     }
 
     .header {
