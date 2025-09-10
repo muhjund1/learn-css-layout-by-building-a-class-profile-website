@@ -1,5 +1,9 @@
 /* Reset dan Base Styles */
 
+* {
+    padding: 0%;
+    margin: 0%;
+}
 /* Header Styles */
 header {
     text-align: center;
@@ -20,6 +24,28 @@ header {
     }
 }
 
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #a44eff 0%, #156bff 100%);
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+
 .judul-daftar-santri {
     text-align: center;
 }
@@ -27,12 +53,17 @@ header {
 /* About Section */
 
 .about-me {
-     background: linear-gradient(120deg, rgb(100, 100, 246), #1261ea 100%);
-     display:flex;
-     flex-wrap: wrap;
-     width: 100%;
+    /* background: linear-gradient(120deg, rgb(100, 100, 246), #1261ea 100%); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
- 
+
+.about-content {
+    background: linear-gradient(120deg, rgb(100, 100, 246), #1261ea 100%);
+    width: 50%;
+}
+
 .about-content1 {
     display: flex;
     gap: 10px;
@@ -41,7 +72,7 @@ header {
     width: 400px;
     margin: 5px;
     padding: 20px;
-    
+
 }
 
 .about-content img {
@@ -49,19 +80,18 @@ header {
     width: 100px;
     height: 100px;
     object-fit: cover;
-  
+
 }
 
 .about-content2 {
     display: flex;
-    justify-content: space-between;
     gap: 10px;
     align-items: center;
     color: rgb(246, 233, 233);
-    width: 400;
+    width: 400px;
     margin: 5px;
-    padding: 25px;
-    
+    padding: 20px;
+
 }
 
 
@@ -77,13 +107,12 @@ header {
 
 .about-content4 {
     display: flex;
-    justify-content: space-between;
     gap: 10px;
     align-items: center;
     color: rgb(255, 255, 255);
-    width: 400;
+    width: 400px;
     margin: 5px;
-    padding: 25px;
+    padding: 20px;
 }
 
 
@@ -99,13 +128,12 @@ header {
 
 .about-content6 {
     display: flex;
-    justify-content: space-between;
     gap: 10px;
     align-items: center;
     color: rgb(255, 255, 255);
-    width: 400;
+    width: 400px;
     margin: 5px;
-    padding: 25px;
+    padding: 20px;
 }
 
 .about-content7 {
@@ -120,13 +148,12 @@ header {
 
 .about-content8 {
     display: flex;
-    justify-content: space-between;
     gap: 10px;
     align-items: center;
     color: rgb(255, 255, 255);
-    width: 400;
+    width: 400px;
     margin: 5px;
-    padding: 25px;
+    padding: 20px;
 }
 
 .slogan-almahir {
@@ -143,16 +170,12 @@ header {
     .about-me {
         width: 70%;
         margin: auto;
-    
+
     }
 
-}
-
-@media (min-width: 992px) {
     .header {
         width: 70%;
         margin: auto;
     }
+
 }
-
-
